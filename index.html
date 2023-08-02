@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VooDoo</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-regalblue">
+    <header class=" bg-mainColor flex flex-wrap -mx-2">
+        <img src="./Logomark.png" alt="Logo picture">
+        <h1>VooDoo Test</h1>
+        <a href="./cart.html" id="cart-link">
+            <img src="./Group.png" alt="Photo of cart">
+        </a>  
+        <button class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded mr-8 ml-8">Sign-up</button>  
+    </header>
+    <div class="px-2">
+        <my-popup></my-popup>
+        <div id="products-container" class="flex flex-wrap -mx-2">
+
+        </div>
+        <div id="pagination"></div>
+    </div>
+    <footer class="sm:justify-center">
+        <img src="./Logomark.png" alt="Logo">
+        <h2>FAQ</h2>
+        <h2>RETURNS</h2>
+        <h2>CONTACT</h2>
+        <h2>TERMS & CONDITIONS</h2>
+        <h2>PRIVACY POLICY</h2>
+        <h2>COOKIE POLICY</h2>
+        <h2>COOKIE SETTINGS</h2>
+        <h2>ABOUT SECOND CHANCE</h2>
+        <h2>CAREERS</h2>
+        <h2>FACEBOOK</h2>
+        <h2>INSTAGRAM</h2>
+    </footer>
+
+
+    <script type="module" src="index.js"></script>
+    <script type="module" src="cart.js"></script>
+</body>
+</html>
